@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 
-@app.route("/markdown-editor", methods=["GET", "POST"])
+@app.route("/", methods=["GET", "POST"])
 def markdown_editor():
     if request.method == "POST":
         text = request.form["text"]
