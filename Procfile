@@ -1,1 +1,1 @@
-web: gunicorn aero:app
+web: gunicorn Aero:app
